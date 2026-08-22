@@ -18,7 +18,7 @@ options.addArguments("--headless=new");
 options.addArguments("--no-sandbox");
 options.addArguments("--disable-dev-shm-usage");
 
-        WebDriver driver = new ChromeDriver();
+       WebDriver driver = new ChromeDriver(options);
 
         verjoActions actions = new verjoActions(driver);
 
