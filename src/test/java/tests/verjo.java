@@ -1,9 +1,6 @@
 package tests;
-
 import io.restassured.http.ContentType;
-
 import static io.restassured.RestAssured.given;
-
 public class verjo {
 
     public   String Login() {
@@ -15,7 +12,6 @@ public class verjo {
                             "userPassword": "Adam212555!!!"
                         }
                         """
-
                 )
                 .when()
                 .post("https://rahulshettyacademy.com/api/ecom/auth/login")
