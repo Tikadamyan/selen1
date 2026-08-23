@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import utils.BrowserUtils;
 
 public class verjoTest {
-
     @Test
     public void test() {
 
@@ -19,11 +18,9 @@ options.addArguments("--no-sandbox");
 options.addArguments("--disable-dev-shm-usage");
 
        WebDriver driver = new ChromeDriver(options);
-
         verjoActions actions = new verjoActions(driver);
 
         actions.openPage();
-
 
         BrowserUtils browser = new BrowserUtils(driver);
 
