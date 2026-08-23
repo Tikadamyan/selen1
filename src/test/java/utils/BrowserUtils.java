@@ -1,10 +1,8 @@
 package utils;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
     public class BrowserUtils {
-
         WebDriver driver;
 
         public BrowserUtils(WebDriver driver) {
@@ -21,7 +19,6 @@ import org.openqa.selenium.WebDriver;
                     token
             );
         }
-
         public void refresh() {
             driver.navigate().refresh();
         }
